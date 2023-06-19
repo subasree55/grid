@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .container{
+      background-color: black;
+      height: 748px;
+      width: 748px;
+      margin: 15%;
+      display: grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
+      gap: 9px;
+    }
+    .red{
+      background-color: red;
+    }
+    .aliceblue{
+      background-color: aliceblue;
+    }
+    .aliceblue1{
+      height: 414px;
+      width: 419px;
+      grid-column: span 3;
+    }
+    .aliceblue2{
+      grid-row: span 2;
+    }
+    .aliceblue3{
+      grid-area: 2/2/4/4;
+    }
+    .blue{
+      background-color: blue;
+      border-bottom: 10px solid black;
+    }
+    .yellow{
+      background-color:  yellow;
+      
+    }
+    .aliceblue4{
+      height: 187px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="red">                     </div>
+    <div class="aliceblue aliceblue1">    </div>
+    <div class="aliceblue aliceblue2">    </div>
+    <div class="aliceblue aliceblue3">    </div>
+    <div class="blue">                    </div>
+    <div class="aliceblue aliceblue4">    </div>
+    <div class="aliceblue aliceblue5">    </div>
+    <div class="yellow">                  </div>
+    <div class="black">                   </div>
+  </div>
+</body>
+
+</html>
